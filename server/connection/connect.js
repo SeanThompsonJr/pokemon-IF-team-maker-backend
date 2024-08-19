@@ -11,4 +11,3 @@ const connectDB = (url) => {
 };
 //export the connection function
 module.exports = connectDB;
-//
