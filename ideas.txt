@@ -1,0 +1,15 @@
+-ability to select a character for mobile
+-Host will update the values
+-add a database for the dead mons called the dump
+
+
+
+t
+--do sooner
+
+-make a hamburger menu for the buttons - done
+-make the images show up by combining the pokekmon number
+id's from pokeapi and the images downloaded from infinite
+fusions
+-hide the string so you can upload this on github
+-add the ui to add and delete from database
