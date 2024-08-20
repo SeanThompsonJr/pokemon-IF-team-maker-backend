@@ -7,8 +7,11 @@ const connectDB = require("./connection/connect");
 const corsOptions = {
   origin: [
     "http://localhost:3000",
-    "https://pokemon-IF-team-maker.onrender.com",
+    "https://pokemon-if-team-maker.onrender.com",
   ],
+  methods: ["GET", "POST", "PATCH", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true, // If you need to allow cookies or other credentials
 };
 const path = require("path");
 const dotenv = require("dotenv");
